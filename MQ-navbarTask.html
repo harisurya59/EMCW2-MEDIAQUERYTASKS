@@ -1,0 +1,28 @@
+<style>
+    .navbar{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .navbar__description{
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+
+    @media screen and (max-width:600px){
+        .navbar__description{
+            display: none;
+        }
+    }
+</style>
+<div class="Navbar">
+    <h1 class="navbar__title">Navbar</h1>
+    <div class="navbar__description">
+        <p>Home</p>
+        <p>bout Us</p>
+        <p>Contact</p>
+    </div>
+</div>
